@@ -11,9 +11,6 @@
 ; What's interesting about this is that a3 gets moved to d7 and a3 is never used again.
 ; ---------------------------------------------------------------------------
 
-; ||||||||||||||| S U B R O U T I N E |||||||||||||||||||||||||||||||||||||||
-
-
 KC_Dec:
 		moveq	#0,d0
 		move.w	#$7FF,d4
